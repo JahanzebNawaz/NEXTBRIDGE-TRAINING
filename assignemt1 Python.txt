@@ -1,0 +1,73 @@
+1. Write a Python program to print the following string in a specific format (see the output). Go to the editor
+Sample String : "Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky. Twinkle, twinkle, little star, How I wonder what you are" Output :
+
+Twinkle, twinkle, little star,
+	How I wonder what you are! 
+		Up above the world so high,   		
+		Like a diamond in the sky. 
+Twinkle, twinkle, little star, 
+	How I wonder what you are
+---------------------------------------------
+
+2. Write a Python program to get the Python version you are using
+
+---------------------------------------------
+
+3. Write a Python program to display the current date and time.
+Sample Output : 
+Current date and time : 
+2014-07-05 14:34:14
+
+---------------------------------------------
+
+4. Write a Python program which accepts the radius of a circle from the user and compute the area.
+Sample Output : 
+r = 1.1
+Area = 3.8013271108436504
+
+---------------------------------------------
+
+5. Write a Python program which accepts the user's first and last name and print them in reverse order with a space between them.
+
+---------------------------------------------
+
+6. Write a Python program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers. 
+Sample data : 3, 5, 7, 23
+Output : 
+List : ['3', ' 5', ' 7', ' 23'] 
+Tuple : ('3', ' 5', ' 7', ' 23')
+
+---------------------------------------------
+
+7. Write a Python to find local IP addresses using Python's stdlib
+
+---------------------------------------------
+
+8. Write a Python program to empty a variable without destroying it.
+
+Sample data: n=20
+d = {"x":200}
+Expected Output : 0
+{}
+
+---------------------------------------------
+
+9.Write a Python program to find the location of Python module sources.
+posix 
+Platform name: 
+Linux 
+Platform release:
+4.4.0-47-generic 
+
+----------------------------------------------
+
+10. Write a Python program to print all even numbers from a given numbers list in the same order and stop the printing if any numbers that come after 237 in the sequence.
+Sample numbers list :
+
+numbers = [    
+    386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345, 
+    399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217, 
+    815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717, 
+    958,743, 527
+    ]
+
