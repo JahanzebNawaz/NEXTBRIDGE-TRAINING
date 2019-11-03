@@ -21,3 +21,15 @@ def fibonacci_fun(n):
     print(b)
 
 fibonacci_fun(n)
+
+
+# another way
+
+def fibonacci_fun(n):
+  a, b = 0, 1
+  for x in range(2, n):
+    print('%s' % a)
+    a, b = b, a+b
+    
+
+fibonacci_fun(n)
