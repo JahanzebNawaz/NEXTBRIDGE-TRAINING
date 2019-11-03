@@ -5,8 +5,8 @@ n = int(input())  #get value from user for limit
 def fibonacci(n):
   a, b = 0, 1
   # print(a)
-  while b < n:
-    print(b)
+  while a <= n:
+    print(a)
     a, b = b, a+b
   
 fibonacci(n)
