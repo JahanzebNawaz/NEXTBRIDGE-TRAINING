@@ -1,0 +1,78 @@
+
+logic 
+data structtirs 
+=protocols internet 
+=sql 
+=oop
+
+tuple k andr list ---- below
+-- a = [0,1,2]
+b = [4,5,6]
+
+t = (a,b)
+
+t[0][1] = 9
+t
+
+----------------------
+dict , words frequency 
+
+recursive, reverse string 
+
+user a shows c 
+user b shows d 
+
+
+= ORM - Object relational mapper. is used to interact with relational databases such as Sqlite, Oracle, PostgreSQL
+
+= udp tcp ,     --- tcp connection oriented, establishes connection before tranmisting data and closes connection after transmitting data.
+                -- while UDP is connection-less  or Datagram oriented, no need of connection to transmit data. for example broadcasting. 
+= http https    --- Http not secure uses PORT 80 to send data No SSl is required, Https is secure and uses PORT 443,                    SSL is required. 
+
+= middlewares     ------ middlewares are python classes that hooks into django request/response life cycle, and its a
+                light weight plugins that alters django inputs or outputs.
+= decorators      ----  decorators are python tools that allow programers to modify, update behaviour of functions or
+                        class 
+
+=hash in python  -----  hash() , hash values are just intergers that are used to compare dictionary keys during
+                 dictionary look up .
+                 hash is an fixed sized integer  that indentifies a perticular value.
+
+
+=array and linked list , 
+                -- arrays are indexed based data structures as each elements is indexed. 
+                -- linked list is data structure which contains elements in sequence and each element is linked to its next and previous element.
+                -- array are faster in accessing element while linked list is slower in access element.
+                -- arrays are fixed size while linked list is dynamic type.
+                -- insertion deletion takes time in array and its faster in linked list.
+
+
+
+
+=no sql  for  ORM ( does ORM effects )
+                -- yes as Django does not supports directly NOSQL so we need to use Djongo or Mongobd_engine for mongodb database.
+
+=MVT for django  -- Django is a MVT, Model View Template.
+
+
+=OOP -----
+        encapsulation ---  Python class is a example of encapsulation class in OOP.  ---- wrapping data and methods in a unit. 
+                Encapsulation means hiding the code and data into a single unit
+        polymorphism -- polymorphism which means can have multiple forms .. we can make same name of function in child as with different functionality.
+        abstraction -- the process of hiding all unwanted details while giving out most of essential details..
+                        hiding data from accessing .. we hide all specific data and return only required output.
+        inheritance -- capability of one class to inherit properties of other class.
+
+
+=normalization
+SQL normalization
+kitni normalization forms hn  5, 3 main
+
+        there are 5NF but we can achive results in 3rd 5NF
+        
+        1NF -- no repetation of data in cell, each cell should contain single value, each record should be unique. (divide into row, remove multi entires values)
+        2NF -- 1NF and single column primary key.. divide table into data type .,, person info and movie info (divide into tables and primery key and foriegn key used.)
+        3NF -- be in 2NF and has no transitive funcitional depedency (further dived and primary key in table 3 and foregin key in table1)
+
+table, name , cgpa get 3rd highest cgpa student name 
+        -- SELECT TOP 1 Result , name FROM (SELECT TOP 3 Result From Table order by Result DESC) as result order by Result ASC;
